@@ -42,6 +42,21 @@ export default function Home() {
           ></Image>
         </div>
       </div>
+      <div className={styles.body_start}>
+        <h1>MONA ART STUDIO</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+          nesciunt dolorum obcaecati fugiat dolor sit amet, consectetur
+          adipisicing.
+        </p>
+        <button>
+          CONTACT ME
+        </button>
+      </div>
+
+      <div className={styles.body_center}>
+        
+      </div>
     </>
   );
 }

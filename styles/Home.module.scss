@@ -1,10 +1,10 @@
-$base_font: 'Oswald', sans-serif;
-$base_black: #1E1E1E;
-$base_primary: #2B385B;
-$base_grey: #F3F3F3;
+$base_font: "Oswald", sans-serif;
+$base_black: #1e1e1e;
+$base_primary: #2b385b;
+$base_grey: #f3f3f3;
 $base_white: #ffff;
 
-.hero{
+.hero {
   padding: 1%;
   padding-inline: 7%;
   height: 60vh;
@@ -12,21 +12,22 @@ $base_white: #ffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-.nav_sec{
+.nav_sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 
-  a{
+  a {
     text-decoration: none;
     color: $base_white;
     font-weight: 300;
@@ -34,7 +35,7 @@ $base_white: #ffff;
     letter-spacing: 2.5px;
   }
 
-  button{
+  button {
     border: 0;
     outline: transparent;
     border-radius: 3px;
@@ -44,26 +45,24 @@ $base_white: #ffff;
     letter-spacing: 2px;
     font-weight: 600;
   }
-  
-  
 }
 
-.hero_body{
+.hero_body {
   margin-block-start: 5%;
   display: flex;
   justify-content: space-between;
-  .hero_text{
+  .hero_text {
     width: 41%;
     margin-block-start: 1%;
-    h1{
+    h1 {
       color: $base_white;
       letter-spacing: 15px;
       font-size: 70px;
       padding: 0;
       margin: 0;
     }
-  
-    h2{
+
+    h2 {
       border-spacing: 0px;
       font-weight: 100;
       color: $base_white;
@@ -71,7 +70,7 @@ $base_white: #ffff;
       padding: 0;
       margin: 0;
     }
-    p{
+    p {
       color: $base_white;
       font-weight: 200;
       letter-spacing: 3px;
@@ -86,14 +85,14 @@ $base_white: #ffff;
       border: 1px solid $base_white;
       padding: 1%;
       width: 72%;
-      h3{
+      h3 {
         margin: 2px;
         letter-spacing: 3px;
         font-size: 15px;
         color: $base_white;
       }
 
-      button{
+      button {
         letter-spacing: 2px;
         font-family: $base_font;
         outline: transparent;
@@ -103,5 +102,25 @@ $base_white: #ffff;
         font-weight: 900;
       }
     }
+  }
+}
+
+.body_start {
+  padding-inline: 7%;
+  width: 32%;
+  h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  button {
+    letter-spacing: 2px;
+    font-family: $base_font;
+    outline: transparent;
+    border: 1 solid $base_black;
+    padding-inline: 25px;
+    padding-block: 8px;
+    font-weight: 900;
+    margin-top: 10px;
   }
 }
