@@ -124,3 +124,132 @@ $base_white: #ffff;
     margin-top: 10px;
   }
 }
+
+.body_center{
+  padding-inline: 7%;
+  margin-block-start: 5%;
+
+  hr{
+    border: 2px dashed #000000;
+  }
+}
+
+.paintings_view{
+  padding-inline: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1{
+    letter-spacing: 5px;
+    font-size: 45px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: $base_primary;
+  }
+}
+
+.paintings{
+  padding-inline: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 5%;
+
+  .painting{
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid $base_black;
+    padding: .4%;
+    margin-bottom: .5%;
+
+    .painting_image{
+      padding-right: 1.5%;
+      padding-left: .4%;
+    }
+
+    .text_head{
+      h2{
+        line-height: 0;
+      }
+      span{
+        font-weight: 300;
+      }
+      p{
+        border-spacing: 0px;
+        font-weight: 300;
+      }
+    }
+
+    .painting_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 180px;
+    }
+    
+  }
+}
+
+.footer{
+  background-color: $base_black;
+  
+
+  .footer_content{
+    display: flex;
+    padding-inline: 7%;
+    padding-block: 2%;
+    width: 50%;
+
+    .footer_text{
+      padding-left: 3%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .text_head{
+        h1{
+          line-height: 0;
+          color: $base_white;
+          margin-bottom: 7%;
+        }
+  
+        p{
+          color: $base_white;
+          font-weight: 200;
+        }
+
+        .socials{
+          display: flex;
+          gap: 15px;
+
+          i{
+            color: $base_white;
+            font-size: 25px;
+          }
+
+        }
+      }
+
+      .cta{
+        padding-bottom: 2%;
+        button{
+          letter-spacing: 2px;
+          font-family: $base_font;
+          outline: transparent;
+          background: transparent;
+          border: 1px solid $base_white;
+          padding-inline: 40px;
+          font-size: 18px;
+          color: $base_white;
+          padding-block: 10px;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}
